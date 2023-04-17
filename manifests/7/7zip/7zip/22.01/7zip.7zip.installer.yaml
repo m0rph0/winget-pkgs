@@ -73,6 +73,8 @@ Installers:
   InstallerType: wix
   InstallerUrl: https://www.7-zip.org/a/7z2201.msi
   InstallerSha256: A4913F98821E0DA0C58CD3A7F2A59F1834B85B6CA6B3FDEFA5454D6C3BBEF54C
+  InstallerSwitches:
+    Silent: /qn /norestart
   ProductCode: '{23170F69-40C1-2701-2201-000001000000}'
   AppsAndFeaturesEntries:
   - DisplayName: 7-Zip 22.01
@@ -82,6 +84,8 @@ Installers:
   InstallerType: wix
   InstallerUrl: https://www.7-zip.org/a/7z2201-x64.msi
   InstallerSha256: F4AFBA646166999D6090B5BEDDDE546450262DC595DDDEB62132DA70F70D14CA
+  InstallerSwitches:
+    Silent: /qn /norestart
   ProductCode: '{23170F69-40C1-2702-2201-000001000000}'
   AppsAndFeaturesEntries:
   - DisplayName: 7-Zip 22.01 (x64 edition)
